@@ -5,7 +5,7 @@ $(function() {
 		// document.querySelector(element).style.width = Math.floor(Math.random()*(100-20)+20)+'%';
 		// document.querySelector(element).style.height = Math.floor(Math.random()*(100-20)+20)+'%';
 		// document.querySelector(element).style.backgroundColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
-		document.querySelector(element).style.transform = 'rotate(' + Math.floor(Math.random()*360) + 'deg) translateX(' + Math.floor(Math.random()*(100-0)+0) + '%) translateY(' + Math.floor(Math.random()*(100-0)+0) + '%)';
+		document.querySelector(element).style.transform = 'rotate(' + Math.floor(Math.random()*360) + 'deg) translateX(' + Math.floor(Math.random()*(100-0)+0) + '%) translateY(' + Math.floor(Math.random()*(100-0)+0) + '%) scale(' + Math.floor(Math.random()*(15-8)+8)/10 + ')';
 	}
 
 	// rectangle('.rectangle.f1');
