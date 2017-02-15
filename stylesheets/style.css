@@ -38,6 +38,7 @@ body {
   margin-top: calc(50vh - 530px);
   /*background-image: url(../materials/bg.png);*/
   position: relative;
+  overflow: hidden;
 }
 
 .rectangle {
