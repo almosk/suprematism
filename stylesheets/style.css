@@ -2,6 +2,11 @@
   box-sizing:border-box;
 }
 
+body {
+  transform: scale(0.7);
+  height: 100vh;
+}
+
 .main {
   position: absolute;
   width: 100vw;
@@ -33,7 +38,11 @@
   margin-top: calc(50vh - 530px);
   /*background-image: url(../materials/bg.png);*/
   position: relative;
+}
 
+.rectangle {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .f1 {
