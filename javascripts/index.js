@@ -27,7 +27,16 @@ $(function() {
 			rectangle('.rectangle.f5');
 			rectangle('.rectangle.f6');
 			rectangle('.rectangle.f7');
-			document.querySelector('.text').style.opacity = 0;
+
+		$('.elements').click(function() {
+			rectangle('.rectangle.f1');
+			rectangle('.rectangle.f2');
+			rectangle('.rectangle.f3');
+			rectangle('.rectangle.f4');
+			rectangle('.rectangle.f5');
+			rectangle('.rectangle.f6');
+			rectangle('.rectangle.f7');
+	  });
 		}
 	}
 });
