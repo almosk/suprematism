@@ -8,14 +8,10 @@ $(function() {
 		document.querySelector(element).style.transform = 'rotate(' + Math.floor(Math.random()*360) + 'deg) translateX(' + Math.floor(Math.random()*(100-0)+0) + '%) translateY(' + Math.floor(Math.random()*(100-0)+0) + '%) scale(' + Math.floor(Math.random()*(15-8)+8)/10 + ')';
 	}
 
-	// rectangle('.rectangle.f1');
-	// rectangle('.rectangle.f2');
-	// rectangle('.rectangle.f3');
-	// rectangle('.rectangle.f4');
-	// rectangle('.rectangle.f5');
-	// rectangle('.rectangle.f6');
-	// rectangle('.rectangle.f7');
-	// document.querySelector('.screen').style.backgroundColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
+	// var card = $(".ddd");
+  // $(document).on("mousemove",function(e) {
+  //   card.attr("style", "transform: rotateY(0deg) rotateX(0deg);");
+  // });
 
 	$('.screen').click(function() {
 		rectangle('.rectangle.f1');
