@@ -1,5 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&subset=cyrillic');*/
-
 * {
   box-sizing:border-box;
   font-family: 'Roboto Mono', monospace;
@@ -19,27 +17,31 @@ body {
 .main {
   position: absolute;
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 820px;
-  transform: scale(0.95);
+  /*min-width: 820px;*/
 }
 
 .bg {
   width: 827px;
   height: 1202px;
+  margin-bottom: 80px;
   background-image: url(../materials/bg2.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 1202px;
 }
 
 .figures {
   width: 663px;
   height: 1061px;
-  margin-left: 10px;
+  margin-left: 87px;
+  margin-top: 64px;
   position: relative;
   overflow: hidden;
 }
@@ -144,4 +146,17 @@ body {
   margin-top: 4px;
   font-size: 18px;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 1440px) {
+  .bg {
+    transform: scale(0.62);
+    margin-bottom: 40px;
+  }
+
+  .figcaption {
+    margin-top: calc(100vh - 150px);
+    transform: scale(0.8);
+  }
+
 }

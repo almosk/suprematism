@@ -30,3 +30,16 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .logo {
+    margin: 20px;
+    font-size: 36px;
+  }
+
+  .gal, .ab {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+}
