@@ -17,7 +17,17 @@ $(function() {
 	// rectangle('.rectangle.f7');
 	// document.querySelector('.screen').style.backgroundColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
 
-	$('.elements').click(function() {
+	$('.screen').click(function() {
+		rectangle('.rectangle.f1');
+		rectangle('.rectangle.f2');
+		rectangle('.rectangle.f3');
+		rectangle('.rectangle.f4');
+		rectangle('.rectangle.f5');
+		rectangle('.rectangle.f6');
+		rectangle('.rectangle.f7');
+	});
+
+	$('.random').click(function() {
 		rectangle('.rectangle.f1');
 		rectangle('.rectangle.f2');
 		rectangle('.rectangle.f3');
