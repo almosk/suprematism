@@ -3,7 +3,7 @@
 * {
   box-sizing:border-box;
   font-family: 'Roboto Mono', monospace;
-  transition: .3s;
+  transition: .1s;
 }
 
 a {
@@ -13,27 +13,27 @@ a {
 
 body {
   min-width: 820px;
-  /*transform: scale(0.7);
-  height: 100vh;*/
   background-color: #FAFAFA;
 }
 
 .main {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 820px;
+  transform: scale(0.95);
 }
 
 .bg {
   width: 827px;
   height: 1202px;
   background-image: url(../materials/bg2.png);
+  background-size: cover;
 }
 
 .figures {
@@ -117,4 +117,31 @@ body {
   width: 142px;
   height: 204px;
   z-index: 2;
+}
+
+.figcaption {
+  position: absolute;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(100vh - 170px);
+  width: 100vw;
+  height: 100px;
+}
+
+.figcaption>p {
+  text-align: center;
+}
+
+.picture {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.painter {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: lighter;
 }

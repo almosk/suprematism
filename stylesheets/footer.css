@@ -28,7 +28,8 @@
   border-color: black;
   cursor: pointer;
   z-index: 1;
-  margin: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .random:hover {
@@ -41,8 +42,10 @@
 
 .vern, .chaos {
   font-size: 18px;
-  margin: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
   text-align: center;
+  cursor: pointer;
 }
 
 .vern:hover, .chaos:hover {
