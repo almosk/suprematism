@@ -6,10 +6,6 @@
   transform: translateZ(0);
 }
 
-.bg {
-
-}
-
 .rectangle {
   transform-style: preserve-3d;
 }
