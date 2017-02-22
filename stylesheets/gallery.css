@@ -20,6 +20,9 @@
   font-family: T-StarPro;
 }
 
+.body {
+  min-width: 1310px;
+}
 .globalflex {
   width: 100vw;
   display: flex;
@@ -35,6 +38,7 @@
   position: relative;
   height: 3000px;
   box-shadow: 0 0 4px 1px #D4D4D4;
+  /*background-image: url(../materials/maket.png);*/
 }
 
 .malevich {
@@ -112,12 +116,10 @@ h1 {
   text-align: center;
   margin-top: 400px;
   line-height: 120px;
-  right: -505490px;
+  right: -490px;
   transform: rotate(90deg);
   color: black;
 }
-
-
 
 h2 {
   font-size: 48px;
@@ -147,10 +149,10 @@ h2 {
   width: 900px;
   height: 400px;
   left: 270px;
-  background-color: green;
+  /*background-color: green;*/
   position: absolute;
   bottom: 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .galleryRail {
@@ -159,36 +161,41 @@ h2 {
 }
 
 .galleryItem {
-  height: 370px;
-  width: 270px;
-  margin: 15px;
-  background-color: lightgray;
+  height: 360px;
+  width: 200px;
+  margin: 20px 50px;
+  /*background-color: lightgray;*/
   display: inline-block;
   content: '';
+  top: 0;
 }
 
-.galleryItem>div{
-  width: auto;
-  height: 270px;
-  background-color: gray;
-  color: white;
+.galleryItem > img {
+  width: 200px;
+  top: 0;
   display: block;
-  margin-bottom: 20px;
 }
 
-.galleryItem>h1{
-  width: auto;
-  font-size: 20px;
+.galleryItem > h1 {
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
   display: inline-block;
   margin-left: 10px;
+  margin-top: 10px;
+  font-family: T-StarPro-Heavy;
+  position: relative;
 }
 
-.galleryItem>p{
-  width: auto;
+.galleryItem > p {
+  width: 200px;
+  height: 30px;
   font-size: 16px;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 5px;
   margin-left: 10px;
+  font-family: T-StarPro;
+
 }
 
 .chashnik {
