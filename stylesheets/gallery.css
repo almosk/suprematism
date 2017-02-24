@@ -21,7 +21,7 @@
 }
 
 .body {
-  min-width: 1310px;
+  /*min-width: 1310px;*/
 }
 .globalflex {
   width: 100vw;
@@ -37,12 +37,13 @@
   /*margin: auto;*/
   position: relative;
   height: 3000px;
-  box-shadow: 0 0 4px 1px #D4D4D4;
+  /*box-shadow: 0 0 4px 1px #D4D4D4;*/
   /*background-image: url(../materials/maket.png);*/
+  /*background-color: brown;*/
 }
 
 .malevich {
-  height: 1200px;
+  height: 800px;
   position: relative;
 }
 
@@ -78,19 +79,41 @@
   position: absolute;
   width: 560px;
   height: 675px;
-  background-image: url(../materials/malevich1.jpg);
+  background-image: url(../materials/malevich2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 87px;
-  margin-left: 317px;
+  margin-left: 240px;
+  display: block;
 }
 
 .malevichCaption {
   position: absolute;
   width: 700px;
   height: 400px;
-  left: 650px;
+  left: 730px;
   margin-top: 550px;
+}
+
+.right {
+  width: 240px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.left {
+  width: 240px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
 }
 
 h1 {
@@ -99,69 +122,75 @@ h1 {
   position: absolute;
 }
 
-.right {
-  width: 1300px;
-  height: 120px;
-  text-align: center;
-  margin-top: 400px;
-  line-height: 120px;
-  margin-left: -505px;
-  transform: rotate(-90deg);
+.malevich > h1 {
   color: white;
 }
 
-.left {
-  width: 1300px;
-  height: 120px;
-  text-align: center;
-  margin-top: 400px;
-  line-height: 120px;
-  right: -490px;
-  transform: rotate(90deg);
-  color: black;
+.right > h1 {
+    transform: rotate(-90deg);
+}
+
+.left > h1 {
+    transform: rotate(90deg);
+}
+
+.left > p {
+    width: 120px;
+    height: 200px;
+    font-family: T-StarPro-Medium;
+    font-size: 24px;
+    color: white;
+    line-height: 29px;
+}
+
+.malevich > .left {
+  justify-content: flex-end;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 500;
   font-family: T-StarPro-Heavy;
 }
 
 .malevichCaption>p {
-  padding-top: 20px;
-  padding-left: 29px;
-  font-size: 36px;
+  padding-top: 5px;
+  padding-left: 22px;
+  font-size: 32px;
   font-weight: 400;
   font-family: T-StarPro-Medium;
-  line-height: 30normal;
+  line-height: 33px;
 }
 
 .chashnikCaption>p {
   padding-top: 20px;
-  padding-left: 29px;
+  padding-left: 22px;
   font-size: 36px;
   font-weight: 400;
   font-family: T-StarPro-Medium;
-  line-height: 30normal;
 }
 
 .gallery {
+  width: 1440px;
+  height: 350px;
+}
+.galleryPort {
   width: 900px;
   height: 350px;
   left: 270px;
   /*background-color: green;*/
-  position: absolute;
+  position: relative;
   bottom: 0;
   overflow: scroll;
 }
 
 .galleryRail {
-  height: 400px;
+  height: 350px;
   width: 2000px;
 }
 
 .galleryItem {
-  height: 360px;
+  height: 310px;
   width: 200px;
   margin: 20px 50px;
   /*background-color: lightgray;*/
@@ -195,7 +224,28 @@ h2 {
   margin-top: 5px;
   margin-left: 10px;
   font-family: T-StarPro;
+}
 
+.galleryNav {
+  width: 1000px;
+  height: 50px;
+  margin: 150px 220px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.next, .previous {
+  height: 55px;
+  width: 68px;
+  background-size: contain;
+  background-image: url(../materials/arrow.svg);
+  background-repeat: no-repeat;
+}
+
+.next {
+  transform: rotate(180deg);
 }
 
 .chashnik {
