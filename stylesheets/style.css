@@ -173,7 +173,7 @@ body {
 }
 
 .figcaption>h1 {
-  font-family: T-StarProBold;
+  font-family: T-StarPro-Bold;
   font-size: 36px;
   line-height: 37px;
   text-indent: -16px;
@@ -260,6 +260,7 @@ body {
 
   .figcaption {
     margin-top: 10px;
+    margin-bottom: 20px;
   }
 
 }
