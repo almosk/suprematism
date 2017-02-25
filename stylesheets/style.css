@@ -248,19 +248,36 @@ body {
   text-decoration: underline;
 }
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 375px) {
   .main {
     flex-direction: column;
   }
 
   .bg {
-    transform: scale(0.6);
-    top: 150px;
+    transform: scale(0.7);
+    top: 190px;
   }
 
   .figcaption {
-    margin-top: 10px;
+    margin-top: 35px;
     margin-bottom: 20px;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .nomobile {
+    display: none;
+  }
+
+  .bottons {
+    margin-bottom: 30px;
+    justify-content: center;
   }
 
 }
