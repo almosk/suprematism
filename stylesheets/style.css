@@ -259,12 +259,16 @@ body {
 
   .bg {
     transform: scale(0.7);
-    top: 190px;
+    top: 210px;
   }
 
   .figcaption {
-    margin-top: 35px;
+    margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .figcaption>p {
+    margin-bottom: 50px;
   }
 
   .mobile {
