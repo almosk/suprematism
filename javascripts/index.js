@@ -22,6 +22,7 @@ $(function() {
 		rectangle('.rectangle.f6');
 		rectangle('.rectangle.f7');
 		rectangle('.rectangle.f8');
+		$('div.tooriginal').removeClass('original')
 	});
 
 	$('.random').click(function() {
@@ -33,6 +34,7 @@ $(function() {
 		rectangle('.rectangle.f6');
 		rectangle('.rectangle.f7');
 		rectangle('.rectangle.f8');
+		$('div.tooriginal').removeClass('original')
 	});
 
 	var button = document.querySelector('.newWallpaper');
@@ -46,14 +48,19 @@ $(function() {
 			rectangle('.rectangle.f6');
 			rectangle('.rectangle.f7');
 			rectangle('.rectangle.f8');
+			$('div.tooriginal').removeClass('original')
 		}
 	}
+
+
 });
 
 $(function() {
 	var rectangle = (element) => {
 		$('.rectangle').attr('style', '')
 	}
+
+
 
 	$('.tooriginal').click(function() {
 		rectangle('.rectangle.f1');
@@ -64,5 +71,6 @@ $(function() {
 		rectangle('.rectangle.f6');
 		rectangle('.rectangle.f7');
 		rectangle('.rectangle.f8');
+		$('div.tooriginal').addClass('original')
 	});
 });
