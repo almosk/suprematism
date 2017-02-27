@@ -20,6 +20,8 @@
   width: 205px;
   height: 180px;
   z-index: 13;
+  /*-webkit-clip-path: polygon(42% 0%, 100% 16%, 59% 100%, 0% 83%);*/
+  /*background-color: yellow;*/
 }
 
 

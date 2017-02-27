@@ -1,0 +1,33 @@
+.timeline {
+  position: absolute;
+  width: 15px;
+  height: 601px;
+  background-image: url(../materials/timelinemask.svg);
+  left: 150px;
+  top: 100px;
+  z-index: 999999999;
+}
+
+.circle {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.circle:hover {
+  fill: yellow;
+  /*transform: translateY(200px);*/
+  r: 5px;
+  opacity: 1;
+  transition: .5 easeInQuint;
+}
+
+/*.st0:after {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}*/
+
+.st2 {
+  transform: translateY(100px);
+}
