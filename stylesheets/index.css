@@ -1,0 +1,8 @@
+#aboutc {
+  background-color: #000000;
+}
+
+#abouts::before {
+  color: #000000;
+  text-decoration: underline;
+}

@@ -1,7 +1,7 @@
 .timelineflex {
   height: 100vh;
   width: 100px;
-  left: 150px;
+  left: 30px;
 
   display: flex;
   flex-direction: row;
@@ -61,7 +61,7 @@
 .tl3 {
   width: 2px;
   height: 570px;
-  margin: 15px 14px;
+  margin: 45px 14px;
   position: absolute;
   display: block;
   background-color: black;
@@ -105,15 +105,16 @@
 
 .tl1::before {
   position: absolute;
-  width: 100px;
+  width: 80px;
   height: 10px;
   /*background-color: yellow;*/
   display: block;
   content: '';
-  left: -25px;
+  left: -75px;
   font-family: T-StarPro;
   font-size: 14px;
   color: #b0b0b0;
+  text-align: right;
 }
 
 #y1910s:hover:after {background-image: url(../materials/malevich4.jpg);}
@@ -126,7 +127,7 @@
 #y1927s:hover:after {background-image: url(../materials/malevich4.jpg);}
 #y1929s:hover:after {background-image: url(../materials/malevich3.jpg);}
 
-
+#abouts:before {content: 'ABOUT'; font-family: T-StarPro-Bold;}
 #y1910s:before {content: '1910';}
 #y1911s:before {content: '1911';}
 #y1912s:before {content: '1912';}
