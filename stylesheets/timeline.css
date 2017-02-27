@@ -1,7 +1,7 @@
 .timelineflex {
   height: 100vh;
   width: 100px;
-  left: 30px;
+  left: 130px;
 
   display: flex;
   flex-direction: row;
@@ -115,6 +115,12 @@
   font-size: 14px;
   color: #b0b0b0;
   text-align: right;
+}
+
+@media (min-width: 2000px) {
+  .timelineflex {
+    left: 500px;
+  }
 }
 
 #y1910s:hover:after {background-image: url(../materials/malevich4.jpg);}
