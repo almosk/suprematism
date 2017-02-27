@@ -55,14 +55,18 @@
 
 .tl1:hover:after {
   position: absolute;
-  width: 100px;
-  height: 40px;
-  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  /*background-color: yellow;*/
   display: block;
   content: '';
   /*opacity: .2;*/
   left: 30px;
   /*top: 10px;*/
+  z-index: 999999;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*box-shadow: 2px 0 15px 2px #C9C9C9;*/
 }
 
 .tl1:hover .tl2 {
@@ -96,6 +100,17 @@
   font-size: 14px;
   color: #b0b0b0;
 }
+
+#y1910s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1911s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1913s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1915s:hover:after {background-image: url(../materials/malevich1.jpg);}
+#y1918s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1924s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1926s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1927s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1929s:hover:after {background-image: url(../materials/malevich2.jpg);}
+
 
 #y1910s:before {content: '1910';}
 #y1911s:before {content: '1911';}
@@ -159,7 +174,3 @@
 #y1928s {
   cursor: default;
 }
-/*
-.tl1:hover > .tl1::after {
-  opacity: 1;
-}*/
