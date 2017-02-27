@@ -84,6 +84,7 @@ body {
   z-index: 999;
 }
 
+.figcaption>a,
 .figcaption>h1 {
   font-family: T-StarPro-Bold;
   font-size: 36px;
@@ -105,7 +106,7 @@ body {
   margin-top: 20px;
 }
 
-.figcaption>a {
+/*.figcaption>a {
   font-family: T-StarPro;
   font-size: 12px;
   line-height: 12px;
@@ -113,7 +114,7 @@ body {
   color: gray;
   display: inline-block;
   text-decoration: underline;
-}
+}*/
 
 .bottons {
   width: 300px;
@@ -146,7 +147,7 @@ body {
 }
 
 .random:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .random:active {

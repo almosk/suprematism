@@ -87,3 +87,11 @@
   height: 22px;
   z-index: 6;
 }
+
+#y1915c {
+  background-color: #000000;
+}
+
+#y1915s::before {
+  color: #000000;
+}

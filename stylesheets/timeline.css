@@ -2,32 +2,164 @@
   position: absolute;
   width: 15px;
   height: 601px;
-  background-image: url(../materials/timelinemask.svg);
+  /*background-image: url(../materials/timelinemask.svg);*/
   left: 150px;
   top: 100px;
   z-index: 999999999;
 }
 
-.circle {
+/*.circle {
   opacity: 0;
   cursor: pointer;
 }
 
 .circle:hover {
   fill: yellow;
-  /*transform: translateY(200px);*/
   r: 5px;
   opacity: 1;
   transition: .5 easeInQuint;
 }
 
-/*.st0:after {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-}*/
-
 .st2 {
   transform: translateY(100px);
+}*/
+.tl1 {
+  width: 30px;
+  height: 30px;
+  /*background-color: gray;*/
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.tl2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.tl3 {
+  width: 2px;
+  height: 570px;
+  margin: 15px 14px;
+  position: absolute;
+  display: block;
+  background-color: black;
+}
+
+.tl1:hover:after {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background-color: yellow;
+  display: block;
+  content: '';
+  /*opacity: .2;*/
+  left: 30px;
+  /*top: 10px;*/
+}
+
+.tl1:hover .tl2 {
+  transform: scale(1.24);
+}
+
+.tl2, .tl3 {
+  /*opacity: .2;*/
+  background-color: #b0b0b0;
+}
+
+.timeline:hover .tl2, .timeline:hover .tl3 {
+  /*opacity: 1;*/
+  /*background-color: red;*/
+  background-color: #000000;
+}
+
+.timeline:hover .tl1::before {
+  color: #000000;
+}
+
+.tl1::before {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  /*background-color: yellow;*/
+  display: block;
+  content: '';
+  left: 30px;
+  font-family: T-StarPro;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+#y1910s:before {content: '1910';}
+#y1911s:before {content: '1911';}
+#y1912s:before {content: '1912';}
+#y1913s:before {content: '1913';}
+#y1914s:before {content: '1914';}
+#y1915s:before {content: '1915';}
+#y1916s:before {content: '1916';}
+#y1917s:before {content: '1917';}
+#y1918s:before {content: '1918';}
+#y1919s:before {content: '1919';}
+#y1920s:before {content: '1920';}
+#y1921s:before {content: '1921';}
+#y1922s:before {content: '1922';}
+#y1923s:before {content: '1923';}
+#y1924s:before {content: '1924';}
+#y1925s:before {content: '1925';}
+#y1926s:before {content: '1926';}
+#y1927s:before {content: '1927';}
+#y1928s:before {content: '1928';}
+#y1929s:before {content: '1929';}
+
+#y1912c,
+#y1914c,
+#y1916c,
+#y1917c,
+#y1919c,
+#y1920c,
+#y1921c,
+#y1922c,
+#y1923c,
+#y1925c,
+#y1928c {
+  display: none;
+}
+
+#y1912s::after, #y1912s::before,
+#y1914s::after, #y1914s::before,
+#y1916s::after, #y1916s::before,
+#y1917s::after, #y1917s::before,
+#y1919s::after, #y1919s::before,
+#y1920s::after, #y1920s::before,
+#y1921s::after, #y1921s::before,
+#y1922s::after, #y1922s::before,
+#y1923s::after, #y1923s::before,
+#y1925s::after, #y1925s::before,
+#y1928s::after, #y1928s::before  {
+  display: none;
+}
+
+#y1912s,
+#y1914s,
+#y1916s,
+#y1917s,
+#y1919s,
+#y1920s,
+#y1921s,
+#y1922s,
+#y1923s,
+#y1925s,
+#y1928s {
+  cursor: default;
+}
+/*
+.tl1:hover > .tl1::after {
+  opacity: 1;
+}*/
