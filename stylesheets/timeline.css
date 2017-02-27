@@ -1,10 +1,22 @@
+.timelineflex {
+  height: 100vh;
+  width: 100px;
+  left: 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+
+}
+
 .timeline {
   position: absolute;
-  width: 15px;
+  width: 60px;
   height: 601px;
   /*background-image: url(../materials/timelinemask.svg);*/
-  left: 150px;
-  top: 100px;
   z-index: 999999999;
 }
 
@@ -26,11 +38,13 @@
 .tl1 {
   width: 30px;
   height: 30px;
+  margin-left: 30px;
   /*background-color: gray;*/
   display: inline-block;
   margin: 0;
   position: relative;
   cursor: pointer;
+
 
   display: flex;
   justify-content: center;
@@ -64,13 +78,14 @@
   left: 30px;
   /*top: 10px;*/
   z-index: 999999;
-  background-size: contain;
+  background-size: auto 150px;
   background-repeat: no-repeat;
   /*box-shadow: 2px 0 15px 2px #C9C9C9;*/
+  overflow: visible;
 }
 
 .tl1:hover .tl2 {
-  transform: scale(1.24);
+  transform: scale(1.6);
 }
 
 .tl2, .tl3 {
@@ -95,21 +110,21 @@
   /*background-color: yellow;*/
   display: block;
   content: '';
-  left: 30px;
+  left: -25px;
   font-family: T-StarPro;
   font-size: 14px;
   color: #b0b0b0;
 }
 
-#y1910s:hover:after {background-image: url(../materials/malevich2.jpg);}
-#y1911s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1910s:hover:after {background-image: url(../materials/malevich4.jpg);}
+#y1911s:hover:after {background-image: url(../materials/malevich3.jpg);}
 #y1913s:hover:after {background-image: url(../materials/malevich2.jpg);}
 #y1915s:hover:after {background-image: url(../materials/malevich1.jpg);}
-#y1918s:hover:after {background-image: url(../materials/malevich2.jpg);}
-#y1924s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1918s:hover:after {background-image: url(../materials/popova.png);}
+#y1924s:hover:after {background-image: url(../materials/malevich4.jpg);}
 #y1926s:hover:after {background-image: url(../materials/malevich2.jpg);}
-#y1927s:hover:after {background-image: url(../materials/malevich2.jpg);}
-#y1929s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1927s:hover:after {background-image: url(../materials/malevich4.jpg);}
+#y1929s:hover:after {background-image: url(../materials/malevich3.jpg);}
 
 
 #y1910s:before {content: '1910';}
