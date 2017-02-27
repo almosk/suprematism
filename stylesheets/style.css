@@ -249,6 +249,10 @@ body {
     width: 20px;
   }
 
+  .timelineflex {
+    display: none;
+  }
+
 }
 
 @media only screen
