@@ -130,6 +130,7 @@
 #y1910s:hover:after {background-image: url(../materials/malevich4.jpg);}
 #y1911s:hover:after {background-image: url(../materials/malevich3.jpg);}
 #y1913s:hover:after {background-image: url(../materials/malevich2.jpg);}
+#y1914s:hover:after {background-image: url(../materials/malevich2.jpg);}
 #y1915s:hover:after {background-image: url(../materials/malevich1.jpg);}
 #y1918s:hover:after {background-image: url(../materials/popova.png);}
 #y1924s:hover:after {background-image: url(../materials/lisitskiy.png);}
@@ -160,7 +161,7 @@
 #y1929s:before {content: '1929';}
 
 #y1912c,
-#y1914c,
+/*#y1914c,*/
 #y1916c,
 #y1917c,
 #y1919c,
@@ -174,7 +175,7 @@
 }
 
 #y1912s::after, #y1912s::before,
-#y1914s::after, #y1914s::before,
+/*#y1914s::after, #y1914s::before,*/
 #y1916s::after, #y1916s::before,
 #y1917s::after, #y1917s::before,
 #y1919s::after, #y1919s::before,
@@ -188,7 +189,7 @@
 }
 
 #y1912s,
-#y1914s,
+/*#y1914s,*/
 #y1916s,
 #y1917s,
 #y1919s,
