@@ -80,7 +80,7 @@ body {
 
 .rectangle {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
 }
 

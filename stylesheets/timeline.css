@@ -87,6 +87,7 @@
 
 .tl1:hover .tl2 {
   transform: scale(1.6);
+  transition: .3s;
 }
 
 .tl2, .tl3 {
