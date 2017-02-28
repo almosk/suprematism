@@ -1,7 +1,7 @@
 .timelineflex {
   height: 100vh;
   width: 100px;
-  left: 130px;
+  left: 100px;
 
   display: flex;
   flex-direction: row;
@@ -41,7 +41,7 @@
   margin-left: 30px;
   /*background-color: gray;*/
   display: inline-block;
-  margin: 0;
+  /*margin: 0;*/
   position: relative;
   cursor: pointer;
 
@@ -61,7 +61,8 @@
 .tl3 {
   width: 2px;
   height: 570px;
-  margin: 45px 14px;
+  margin-top: 45px;
+  right: 14px;
   position: absolute;
   display: block;
   background-color: black;
@@ -96,11 +97,11 @@
 .timeline:hover .tl2, .timeline:hover .tl3 {
   /*opacity: 1;*/
   /*background-color: red;*/
-  background-color: #000000;
+  background-color: #777777;
 }
 
 .timeline:hover .tl1::before {
-  color: #000000;
+  color: #777777;
 }
 
 .tl1::before {
@@ -133,7 +134,7 @@
 #y1927s:hover:after {background-image: url(../materials/malevich4.jpg);}
 #y1929s:hover:after {background-image: url(../materials/malevich3.jpg);}
 
-#abouts:before {content: 'ABOUT'; font-family: T-StarPro-Bold;}
+#abouts:before {content: 'О ПРОЕКТЕ'; font-family: T-StarPro-Bold;}
 #y1910s:before {content: '1910';}
 #y1911s:before {content: '1911';}
 #y1912s:before {content: '1912';}

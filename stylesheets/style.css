@@ -50,6 +50,14 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+}
+
+.mainabout {
+  background-image: url(../materials/about.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg {
