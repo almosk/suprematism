@@ -98,10 +98,12 @@
   /*opacity: 1;*/
   /*background-color: red;*/
   background-color: #777777;
+  transition: .1s;
 }
 
 .timeline:hover .tl1::before {
   color: #777777;
+  transition: .1s;
 }
 
 .tl1::before {
