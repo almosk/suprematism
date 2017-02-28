@@ -15,7 +15,7 @@
 .timeline {
   position: absolute;
   width: 60px;
-  height: 601px;
+  height: 630px;
   /*background-image: url(../materials/timelinemask.svg);*/
   z-index: 999999999;
 }
